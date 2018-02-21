@@ -4,6 +4,7 @@ Simple 2D Field of View/Line of Sight algorithm implemented in gdscript (the God
 
 ![visualization of simple fov examples](https://github.com/fahall/godot_2d_visibility/blob/master/fov_example.png "Simple Examples")
 
+## Algorithm
 This implementation is based on [this 2d Visibility](http://www.redblobgames.com/articles/visibility/) article on the Red Blob Games website. It also draws heavily from [Trylock's C++ implementation](https://github.com/trylock/visibility)
 
 
