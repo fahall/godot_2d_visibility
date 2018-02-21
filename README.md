@@ -8,13 +8,13 @@ Simple 2D Field of View/Line of Sight algorithm implemented in gdscript (the God
 This implementation is based on [this 2d Visibility](http://www.redblobgames.com/articles/visibility/) article on the Red Blob Games website. It also draws heavily from [Trylock's C++ implementation](https://github.com/trylock/visibility)
 
 
-## Preconditions:
+## Preconditions
 - The line segments must not intersect except at their endpoints 
 - The visiblity polygon has to be closed. 
 
 **Behaviour is undefined if the preconditions aren't met**. Line segment intersections can be solved by first splitting segments at intersection points. The visibility polygon can be guaranteed closed if you add an additional bounding box around your scene. 
 
-## Sample Use in Godot:
+## Godot Example
 
 This sample will draw a blue polygon indicating the computed FOV from the node's origin. 
 
